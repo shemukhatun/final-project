@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-link a {
+    color: #fff;
+}
+
+.user-panel {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-nav {
+    background: #ff2a6b;
+    padding: 18px 0;
+}
+
+.user-panel a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #ff2a6b;
+}
+
+.btn-search {
+    background: #ff2a6b;
+    border: 1px solid;
+}
+
+.banner {
+    background: url(img/banner.jpg) no-repeat center center /cover;
+}
+
+.banner-content {
+    padding: 120px 0;
+}
+
+.banner-content h3 {
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    color: #fff;
+    padding: 4px 0;
+}
+
+a.btn-book {
+    display: inline-block;
+    color: #fff;
+    background: #ff2a6b;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.service {
+    padding: 80px 0;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item .card-body {
+
+    padding: 47px 46px 36px 46px;
+    background-color: #fff;
+    border: 1px solid #e6dad8;
+    border-radius: 10px;
+    transition: all .4s ease-out 0s;
+}
+
+.service-item h5 {
+    font-weight: 500;
+    font-size: 26px;
+    color: #4d312c;
+    line-height: 1.4;
+    margin: 20px 0;
+    display: block;
+}
+
+.receipies {
+    background: aliceblue;
+    padding: 80px 0;
+}
+
+.bookatable {
+    padding: 80px 0;
+}
+
+.form-wrapper {
+    padding-left: 20px;
+}
+
+.form-wrapper .form-title h2 {
+    font-size: 38px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+
+.btn-book {
+    background: #ff2a6b;
+    color: #f3f3f3;
+    font-weight: 600;
+    border: 1px solid;
+    transition: all ease-in-out 0.4s;
+}
+
+.btn-book:hover {
+    background: #ff0a54;
+    color: #fff;
+}
+
+img.customer-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.reviews {
+    padding: 80px 0;
+    background: aliceblue;
+}
+
+p.review-score i {
+    color: #ff0a54;
+}
+
+.footer {
+    background: #ff2a6b;
+    padding: 10px 0;
+}
+
+.footer h2 {
+    color: #fff;
+
+}
+
+.footer-nav .nav {
+    justify-content: end;
+}
+
+.footer-nav ul li a {
+    font-size: 14px;
+    color: #fff !important;
+}
+
+@media(max-width:576px) {
+    .user-panel, .social-link {
+        justify-content: center;
+    }
+
+    .footer {
+        text-align: center !important;
+    }
+
+    .footer-nav .nav {
+        justify-content: center;
+    }
+}
